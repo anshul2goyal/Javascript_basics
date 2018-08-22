@@ -3,6 +3,9 @@
  *  
  *	
 */
+const Window = require('window');
+const window = new Window();
+
 //When scope is global for var and let
 var a = "test"
 let b = "I am let"
